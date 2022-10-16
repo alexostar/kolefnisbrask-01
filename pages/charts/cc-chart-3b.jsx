@@ -24,6 +24,8 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  maintainAspectRatio: true,
+  aspectRatio: 2,
   plugins: {
     legend: {
       position: 'top',
@@ -63,15 +65,41 @@ export const data = {
 
 export default function Chart3b() {
   return (
-    <div className='w-full p-6 border border-slate-900 border-1 rounded-md bg-white'>
-      <h1 className='text-xl sm:text-2xl '>
-        Heildarkaup (12 tonn CO2e/ár) og heildarbinding í skógi
-      </h1>
-      <Line options={options} data={data} />
-      <p className='text-sm sm'>
-        Gert er ráð fyrir að á hverju ári séu gróðursett tré með áætlaða 12
-        tonna bindingu á líftíma
-      </p>
-    </div>
+    <section className='flex flex-col items-center'>
+      <div className='max-w-4xl p-3'>
+        <p className='my-3'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div className='w-full p-6 border border-slate-900 border-1 rounded-md bg-white my-6'>
+        <h1 className='text-xl sm:text-2xl '>
+          Heildarkaup (12 tonn CO2e/ár) og heildarbinding í skógi
+        </h1>
+        <div style={{ position: 'relative', height: 'auto', width: '80vw' }}>
+          <Line options={options} data={data} />
+        </div>
+        <p className='text-sm sm'>
+          Gert er ráð fyrir að á hverju ári séu gróðursett tré með áætlaða 12
+          tonna bindingu á símum líftíma
+        </p>
+      </div>
+      <div className='max-w-4xl p-3'>
+        <p className='my-3'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
   );
 }

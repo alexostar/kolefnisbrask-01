@@ -24,6 +24,8 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  maintainAspectRatio: true,
+  aspectRatio: 2,
   plugins: {
     legend: {
       position: 'top',
@@ -54,14 +56,47 @@ export const data = {
 
 export default function Chart2b() {
   return (
-    <div className='w-full p-6 border border-slate-900 border-1 rounded-md bg-white'>
-      <h1 className='text-xl sm:text-2xl'>
-        Árleg kolefnisbinding í % af heildarbindingu á líftíma
-      </h1>
-      <h2 className='text-lg sm:text-xl'>
-        Meðaltal fyrir Alaskaösp og Sitkagreni
-      </h2>
-      <Line options={options} data={data} />
-    </div>
+    <section className='flex flex-col items-center'>
+      <div className='max-w-4xl p-3'>
+        <p className='my-3'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div className='p-6 border border-slate-900 border-1 rounded-md bg-white my-6 flex flex-col'>
+        <h1 className='text-xl sm:text-2xl'>
+          Árleg kolefnisbinding í % af heildarbindingu á líftíma
+        </h1>
+        <h2 className='text-lg sm:text-xl'>
+          Meðaltal fyrir Alaskaösp og Sitkagreni
+        </h2>
+        <div style={{ position: 'relative', height: 'auto', width: '80vw' }}>
+          <Line options={options} data={data} />
+        </div>
+      </div>
+      <div className='max-w-4xl p-3'>
+        <p className='my-3'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
   );
 }
+
+/*
+THIS WORKS PARTLY but not w-full
+<div className='relative h-auto w-11/12'>
+     <Line options={options} data={data} />
+      </div>
+*/
