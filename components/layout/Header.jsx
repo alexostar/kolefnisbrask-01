@@ -8,15 +8,15 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className='sticky top-0 z-40 w-full bg-slate-50 md:bg-slate-50/90 md:backdrop-blur-sm border-b'>
+    <header className='sticky top-0 z-40 w-full bg-slate-50 md:bg-slate-50/90 md:backdrop-blur-sm border-b border-orange-700'>
       <div className='container mx-auto max-w-4xl flex justify-between items-center py-2 px-4'>
         {/* Left - Logo */}
         <Link href='/'>
           <a className='flex space-x-0 items-end cursor-pointer my-auto'>
-            <p className='text-orange-700 text-xl font-semibold tracking-widest'>
+            <p className='text-slate-900 text-xl font-semibold tracking-widest'>
               kolefnis
             </p>
-            <span className='text-xl font-semibold text-slate-900 tracking-widest'>
+            <span className='text-xl font-semibold text-orange-700 tracking-widest'>
               brask.is
             </span>
           </a>
