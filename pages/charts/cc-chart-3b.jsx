@@ -77,7 +77,7 @@ export default function Chart3b() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div className='w-full p-6 border border-slate-900 border-1 rounded-md bg-white my-6'>
+      <div className='p-6 border border-slate-900 border-1 rounded-md bg-white my-6 flex flex-col'>
         <h1 className='text-xl sm:text-2xl '>
           Heildarkaup (12 tonn CO2e/ár) og heildarbinding í skógi
         </h1>
