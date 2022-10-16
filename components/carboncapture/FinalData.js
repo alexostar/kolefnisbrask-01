@@ -404,11 +404,11 @@
   },
   {
     age: '32',
-    alaskaosp: '22.29',
+    alaskaosp: '22.95',
     sitkagreni: '13.05',
     ospPercentTotal: '3.28',
     greniPercentTotal: '1.93',
-    averagePercent: '2.61',
+    averagePercent: '2.66',
     '12tonLifeTime': '0.313',
     capture: '6.119',
     cumulativeCapture: '66.50',
