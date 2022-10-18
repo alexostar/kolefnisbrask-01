@@ -10,8 +10,8 @@ export default function Hero() {
         This site is under construction. Ongoing update 2022-10-18
       </div>
       <div className='my-12'>
-        <h1 className='text-2xl sm:text-3xl md:text-4xl mb-6'>
-          Kolefnisjöfnun með skógrækt tekin til skoðunar
+        <h1 className='text-2xl sm:text-3xl md:text-4xl mb-6 text-center'>
+          Örvefur um kolefnisjöfnun með skógrækt
         </h1>
 
         <div className='relative'>

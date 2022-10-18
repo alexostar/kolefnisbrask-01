@@ -28,7 +28,7 @@ export const options = {
   aspectRatio: 2,
   plugins: {
     legend: {
-      position: 'top',
+      display: false,
     },
     title: {
       display: false,
