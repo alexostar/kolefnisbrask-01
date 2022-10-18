@@ -6,9 +6,13 @@ import Link from 'next/link';
 export default function Hero() {
   return (
     <div className='container mx-auto max-w-4xl flex flex-col justify-between items-center py-2 px-4'>
-      <div className='text-sm italic'>This site is under construction</div>
+      <div className='text-sm italic'>
+        This site is under construction. Ongoing update 2022-10-18
+      </div>
       <div className='my-12'>
-        <h1 className='text-5xl mb-6'>Jarðrask og kolefnisbrask</h1>
+        <h1 className='text-5xl mb-6'>
+          Kolefnisjöfnun með skógrækt tekin til skoðunar
+        </h1>
 
         <div className='relative'>
           <Image
@@ -18,18 +22,23 @@ export default function Hero() {
             width={1200}
             height={552}
           />
-          <h3 className='absolute text-base sm:text-xl md:text-2xl font-bold text-white bottom-5 left-5'>
-            Með svona aðferðum við skógrækt mun losun kolefnis úr jarðvegi verða
-            langt umfram bindingu trjánna fyrstu árin!
-          </h3>
+          <h2 className='absolute text-xl sm:text-2xl md:text-3xl font-bold text-white bottom-5 left-5'>
+            Jarðrask og kolefnisbrask
+          </h2>
         </div>
+        <p className='text-sm italic'>
+          {' '}
+          Með svona aðferðum við skógrækt mun losun kolefnis úr jarðvegi verða
+          langt umfram bindingu trjánna fyrstu árin! Mynd: Borgþór Magnússon
+        </p>
 
+        <h2 className='text-xl md:text-2xl font-bold my-6'></h2>
         <div>
           <p className='mt-6 text-xl'>
             Í samvinnu við Skórrækt ríkisins bjóða landeigendur almenningi upp á
             að fjármagna skórækt þeirra gegn kvittun um vottaðar
             kolefniseiningar að nota til kolefnisjöfnunar. Eigandi bíls sem
-            sleppir út fimm tonnum koltvísýrings-ígilda á ári getur keypt
+            sleppir út fimm tonnum CO<sub>2</sub>-ígilda á ári getur keypt
             gróðursetningu á trjám sem munu binda jafnmikið kolefni á sínum
             lífstíma og þar með fengið límmiða fyrir bílinn sem staðfestir að
             hann sé{' '}
@@ -48,7 +57,7 @@ export default function Hero() {
             <span className='font-bold'>Stenst þetta nánari skoðun?</span>
           </p>
 
-          <Link href='/details/'>
+          <Link href='/cneutral/'>
             <a className='bg-orange-700 px-3 py-2 text-white rounded-md hover:bg-orange-600'>
               Lítum nánar á þetta!
             </a>

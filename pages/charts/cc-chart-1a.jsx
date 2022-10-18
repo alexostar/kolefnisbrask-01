@@ -68,9 +68,9 @@ export const data = {
   ],
 };
 
-export default function Chart1b() {
+export default function Chart1a() {
   return (
-    <section className='flex flex-col items-center'>
+    <section className='flex flex-col max-w-4xl items-center'>
       <div className='max-w-4xl p-3'>
         <p className='my-3'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

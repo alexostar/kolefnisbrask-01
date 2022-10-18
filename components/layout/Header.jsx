@@ -26,18 +26,19 @@ export default function Header() {
         <nav className='flex  items-center justify-end text-slate-900 md:ml-auto'>
           <ul className='space-x-8'>
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
-              <Link href='/charts/cc-chart-1b'>
-                <a>Chart 1</a>
+              <Link href='/cneutral'>
+                <a>Kolefnisjöfnun</a>
               </Link>
             </li>
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
-              <Link href='/charts/cc-chart-2b'>
-                <a>Chart 2</a>
+              <Link href='/actions'>
+                <a>Aðgerðaáætkun</a>
               </Link>
             </li>
+
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
-              <Link href='/charts/cc-chart-3b'>
-                <a>Chart 3</a>
+              <Link href='/references'>
+                <a>Heimildir</a>
               </Link>
             </li>
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
@@ -72,25 +73,26 @@ export default function Header() {
                 </li>
 
                 <li className='my-2 mr-3 text-lg flex flex-col items-end'>
-                  <Link href='/charts/cc-chart-1b'>
+                  <Link href='/cneutral'>
                     <a
                       onClick={() => setMenuOpen(false)}
                       className='cursor-pointer hover:text-orange-600'>
-                      Chart 1
+                      Kolefnisjöfnun
                     </a>
                   </Link>
-                  <Link href='/charts/cc-chart-2b'>
+                  <Link href='/'>
                     <a
                       onClick={() => setMenuOpen(false)}
                       className='cursor-pointer hhover:text-orange-600'>
-                      Chart 2
+                      Aðgerðaráætkun
                     </a>
                   </Link>
-                  <Link href='/charts/cc-chart-3b'>
+
+                  <Link href='/references'>
                     <a
                       onClick={() => setMenuOpen(false)}
                       className='cursor-pointer hover:text-orange-600'>
-                      Chart 3
+                      Heimildir
                     </a>
                   </Link>
                   <Link href='/about'>
