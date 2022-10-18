@@ -32,7 +32,7 @@ export default function Header() {
             </li>
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
               <Link href='/actions'>
-                <a>Aðgerðaáætkun</a>
+                <a>Aðgerðaáætlun</a>
               </Link>
             </li>
 
@@ -84,7 +84,7 @@ export default function Header() {
                     <a
                       onClick={() => setMenuOpen(false)}
                       className='cursor-pointer hhover:text-orange-600'>
-                      Aðgerðaráætkun
+                      Aðgerðaráætlun
                     </a>
                   </Link>
 

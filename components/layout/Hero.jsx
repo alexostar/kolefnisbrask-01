@@ -10,7 +10,7 @@ export default function Hero() {
         This site is under construction. Ongoing update 2022-10-18
       </div>
       <div className='my-12'>
-        <h1 className='text-5xl mb-6'>
+        <h1 className='text-2xl sm:text-3xl md:text-4xl mb-6'>
           Kolefnisjöfnun með skógrækt tekin til skoðunar
         </h1>
 
@@ -22,8 +22,8 @@ export default function Hero() {
             width={1200}
             height={552}
           />
-          <h2 className='absolute text-xl sm:text-2xl md:text-3xl font-bold text-white bottom-5 left-5'>
-            Jarðrask og kolefnisbrask
+          <h2 className='absolute text-xl sm:text-3xl md:text-5xl font-bold text-white bottom-5 left-5'>
+            Jarðrask! Kolefnisbrask?
           </h2>
         </div>
         <p className='text-sm italic'>
