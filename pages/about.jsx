@@ -43,8 +43,15 @@ export default function About() {
           className=' text-blue-700'>
           Skógarkolefnis.
         </a>{' '}
-        Ég geri ráð fyrir, án þess að vita það enn (2022-10-18), að í því felist
-        að hugtakið kolefnisjöfnun sé ekki notað með villandi hætti.
+        Ég gerði fyrst ráð fyrir að í því felist að hugtakið kolefnisjöfnun sé
+        ekki notað með villandi hætti. En jafnvel Skógræktin notar hugtakið á
+        vafasaman hátt. Eit af markmiðum Skógarkolefnis er að{' '}
+        <italic>
+          <strong>
+            bjóða fyrirtækjum og einstaklingum upp á nýjan kost til að
+            kolefnisjafna sig.
+          </strong>
+        </italic>
       </p>
       <p className='my-3'>
         Á þessum örvef hef ég tekið að mér að skoða nánar markaðinn fyrir
