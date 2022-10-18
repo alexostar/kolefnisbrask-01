@@ -8,9 +8,9 @@ import Chart3b from '../components/carboncapture/Chart3b';
 export default function Cneutral() {
   return (
     <div className='flex flex-col max-w-4xl items-center py-2 px-4'>
-      <div className='text-sm italic text-center'>
-        This site is under construction. Ongoing update 2022-10-18
-      </div>
+      <p className='text-sm italic text-center'>
+        This site is under construction. Ongoing update 2022-10-18/19
+      </p>
       <div>
         <h1 className='text-4xl text-slate-900 my-6 italic'>
           &quot;Kolefnisjöfnun fyrir alla!&quot;

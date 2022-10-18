@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <div className='flex flex-col max-w-4xl items-start py-2 px-4'>
-      <div className='text-sm italic text-center'>
-        This site is under construction. Ongoing update 2022-10-18
-      </div>
+      <p className='text-sm italic text-center'>
+        This site is under construction. Ongoing update 2022-10-18/19
+      </p>
 
       <h1 className='text-4xl text-slate-900 my-6'>Um kolefnisbrask.is</h1>
 
@@ -31,8 +31,8 @@ export default function About() {
         kolefnisbindingu og kolefnisjöfnun sé oft ruglað saman. Í minnisblaðinu
         bendir Stefán á að &quot;Kolefnisbinding er hvert það ferli sem tekur
         til sín koldíoxíð úr andrúnsloftinu og bindur það sem kolefni en
-        hinsvegar sé ekki hægt að tala um kolefnisjöfnun fyrr en bindingur hefur
-        átt sæer stað með sannanlegum hætti og að uppfylltum nokkrum
+        hinsvegar sé ekki hægt að tala um kolefnisjöfnun fyrr en bindingin hefur
+        átt sér stað með sannanlegum hætti og að uppfylltum nokkrum
         grundvallarskilyrðum.&quot;
       </p>
       <p className='my-3'>

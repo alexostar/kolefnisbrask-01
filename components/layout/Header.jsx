@@ -35,12 +35,13 @@ export default function Header() {
                 <a>Aðgerðaáætlun</a>
               </Link>
             </li>
-
-            <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
+            {/*  HIDDEN
+            <li className='hidden cursor-pointer hover:text-orange-600'>
               <Link href='/references'>
                 <a>Heimildir</a>
               </Link>
             </li>
+             */}
             <li className='hidden md:inline cursor-pointer hover:text-orange-600'>
               <Link href='/about'>
                 <a>Um</a>
@@ -87,19 +88,20 @@ export default function Header() {
                       Aðgerðaráætlun
                     </a>
                   </Link>
-
+                  {/*  HIDDEN
                   <Link href='/references'>
                     <a
                       onClick={() => setMenuOpen(false)}
-                      className='cursor-pointer hover:text-orange-600'>
+                      className='hidden cursor-pointer hover:text-orange-600'>
                       Heimildir
                     </a>
                   </Link>
+                  */}
                   <Link href='/about'>
                     <a
                       onClick={() => setMenuOpen(false)}
                       className='cursor-pointer hover:text-orange-600'>
-                      About
+                      Um kolefnisbrask.is
                     </a>
                   </Link>
                 </li>
