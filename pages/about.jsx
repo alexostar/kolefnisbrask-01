@@ -44,14 +44,16 @@ export default function About() {
           Skógarkolefnis.
         </a>{' '}
         Ég gerði fyrst ráð fyrir að í því felist að hugtakið kolefnisjöfnun sé
-        ekki notað með villandi hætti. En jafnvel Skógræktin notar hugtakið á
-        vafasaman hátt. Eit af markmiðum Skógarkolefnis er að{' '}
+        ekki notað með villandi hætti. Þó að ett af markmiðum Skógarkolefnis sé
+        að{' '}
         <italic>
           <strong>
             bjóða fyrirtækjum og einstaklingum upp á nýjan kost til að
             kolefnisjafna sig.
           </strong>
-        </italic>
+        </italic>{' '}
+        held ég að hér sé eingöngu átt kaup og sölu á kolefniseiningum sem búið
+        er að binda.
       </p>
       <p className='my-3'>
         Á þessum örvef hef ég tekið að mér að skoða nánar markaðinn fyrir
