@@ -43,7 +43,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: 'Keyptar kolefniseiningar (tonn CO2e)',
+      label: 'Keyptar kolefniseiningar',
       data: CaptureData.map((data) => data.cumulativePay),
       fill: false,
       lineTension: 0.5,
@@ -53,7 +53,7 @@ export const data = {
     },
     {
       data: CaptureData.map((data) => data.cumulativeCapture),
-      label: 'Bundnar kolefniseiningar (tonn CO2e)',
+      label: 'Bundnar kolefniseiningar',
       fill: true,
       lineTension: 0.5,
       borderColor: 'rgb(75,72,192)',
@@ -67,7 +67,7 @@ export default function Chart3b() {
   return (
     <div className='p-6 border border-slate-900 border-1 rounded-md bg-white my-6 flex flex-col'>
       <h1 className='text-xl sm:text-2xl '>
-        Heildarkaup (12 tonn CO2e/ár) og heildarbinding í skógi
+        Heildarkaup (12 tonn CO<sub>2</sub>-ígildi/ár) og heildarbinding í skógi
       </h1>
       <div style={{ position: 'relative', height: 'auto', width: '50vw' }}>
         <Line options={options} data={data} />

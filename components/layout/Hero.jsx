@@ -7,11 +7,11 @@ export default function Hero() {
   return (
     <div className='container mx-auto max-w-4xl flex flex-col justify-between items-center py-2 px-4'>
       <div className='text-sm italic'>
-        This site is under construction. Ongoing update 2022-10-18
+        This site is under construction. Ongoing update 2022-10-18/19
       </div>
       <div className='my-12'>
         <h1 className='text-2xl sm:text-3xl md:text-4xl mb-6 text-center'>
-          Örvefur um kolefnisjöfnun með skógrækt
+          Kolefnisjöfnun með skógrækt tekin til skoðunar
         </h1>
 
         <div className='relative'>
@@ -34,27 +34,19 @@ export default function Hero() {
 
         <h2 className='text-xl md:text-2xl font-bold my-6'></h2>
         <div>
-          <p className='mt-6 text-xl'>
-            Í samvinnu við Skórrækt ríkisins bjóða landeigendur almenningi upp á
-            að fjármagna skórækt þeirra gegn kvittun um vottaðar
-            kolefniseiningar að nota til kolefnisjöfnunar. Eigandi bíls sem
-            sleppir út fimm tonnum CO<sub>2</sub>-ígilda á ári getur keypt
-            gróðursetningu á trjám sem munu binda jafnmikið kolefni á sínum
-            lífstíma og þar með fengið límmiða fyrir bílinn sem staðfestir að
-            hann sé{' '}
-            <span className='italic font-bold text-green-700'>grænn. </span>
-            <span className='font-bold'>Þetta gengur ekki upp!</span>
-          </p>
-          <p className='my-6 mb-12 text-xl'>
-            Í aðgerðaráætlun sjórnvalda í loftslagsmálum er gert ráð fyrir að{' '}
-            <span className='italic'>
-              &quot;skógrækt aukist um samanlagt ca 3000 hekarara á árunum 2019
-              - 2022 og að auknar aðgerðir í skógrækt muni skila
-              kolefnisbindingu sem samsvarar alls um 34 þúsund tonnum árið 2022.
-              Þetta samsvarar árlega 134 þúsund tonnum árið 2030 og 258 þúsund
-              tonnum árið 2040.&quot;
-            </span>{' '}
-            <span className='font-bold'>Stenst þetta nánari skoðun?</span>
+          <p className='my-6 text-xl'>
+            Í aðgerðaáætlun stjórnvalda í loftslagsmálum er gert ráð fyrir að
+            stórauka skógrækt til kolefnisbindingar. Fjölmargir landeigendur
+            bjóða einstaklingum og fyritækjum upp á kaup á kolefniseiningum sem
+            mótvægi við kolefnislosun þeirra. Oft er hugtakið kolefnisjöfnun
+            notað í markaðssetningu og verkefnin sögð vera byggð á aðferðafræði
+            Skógarkolefnis, sem er verkefni Skógræktarinnar til að koma á fót
+            viðurkenndu ferli vottunar á bindingu kolefnis með nýskógrækt. En
+            stenst alltaf því sem er lofað? Er hægt að kolefnisjafna bifreið með
+            því að kaupa árlega áskrift á nýskógrækt sem mun á sínum líftíma
+            binda CO2-ígildi sem samsvara árlegari kolefnislosun bílsins? Er
+            umhverfisvernd ekki í hávegum höfð þegar kolefnisbindingin er
+            megindrifkrafturinn?
           </p>
 
           <Link href='/cneutral/'>
